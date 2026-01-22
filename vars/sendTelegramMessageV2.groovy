@@ -8,4 +8,5 @@ def call(String message) {
         -d chat_id=${CHAT_ID} \\
         -d text="${encodedMessage}" > /dev/null
     """
+    }
 }
